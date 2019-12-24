@@ -1,5 +1,6 @@
 import os
 import secrets
+import binascii
 from PIL import Image
 from flask import url_for
 from flask_mail import Message
