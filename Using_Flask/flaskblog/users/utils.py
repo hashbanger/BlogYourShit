@@ -23,5 +23,5 @@ def send_reset_email(user):
     msg = Message('Password Reset Request', sender = 'noreply@demo.com', recipients=[user.email])
     msg.body = '''To reset your password, visit the following link:
 {}
-If you did not make this request, ignore the email, no changes will be made.'''.format(url_for('reset_token',token=  token, _external = True))
+If you did not make this request, ignore the email, no changes will be made.'''.format(url_for('users.reset_token',token=  token, _external = True))
     mail.send(msg)
