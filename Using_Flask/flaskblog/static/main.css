@@ -1,74 +1,89 @@
 body {
-    background: #fafafa;
+    background: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
     color: #333333;
     margin-top: 5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #241b30;
   }
   
   .bg-steel {
-    background-color: #5f788a;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #8442ff;
   }
   
   .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #caa1ff;
   }
   
   .site-header .navbar-nav .nav-link:hover {
+    font-family:Arial, Helvetica, sans-serif;
     color: #ffffff;
   }
   
   .site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
   }
   
   .content-section {
-    background: #ffffff;
+    font-family: helvetica, sans-serif;
+    background: #f7f7f9;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
+    border: 1px solid #ebddff;
     border-radius: 3px;
     margin-bottom: 20px;
   }
   
   .article-title {
-    color: #444444;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
   }
   
   a.article-title:hover {
-    color: #428bca;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #7742f5;
     text-decoration: none;
   }
   
   .article-content {
+    font-family:Arial, Helvetica, sans-serif;
     white-space: pre-line;
   }
   
   .article-img {
+    font-family:Arial, Helvetica, sans-serif;
     height: 65px;
     width: 65px;
     margin-right: 16px;
   }
   
   .article-metadata {
+    font-family:Arial, Helvetica, sans-serif;
     padding-bottom: 1px;
     margin-bottom: 4px;
     border-bottom: 1px solid #e3e3e3
   }
   
   .article-metadata a:hover {
+    font-family:Arial, Helvetica, sans-serif;
     color: #333;
     text-decoration: none;
   }
   
   .article-svg {
+    font-family:Arial, Helvetica, sans-serif;
     width: 25px;
     height: 25px;
     vertical-align: middle;
   }
   
   .account-img {
+    font-family:Arial, Helvetica, sans-serif;
     height: 125px;
     width: 125px;
     margin-right: 20px;
@@ -76,6 +91,57 @@ body {
   }
   
   .account-heading {
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
   }
-  
+
+  a {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#7742f5;
+  }
+
+  .btn-info{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #faf8ff;
+    background-color: #7742f5;
+    border-color: #7742f5;
+  }
+
+.btn-outline-info {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #7742f5;
+    border-color: #7742f5;
+}
+
+.btn-outline-info:hover {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  border-color: #7742f5;
+  background-color:#7742f5 ;
+}
+
+.home {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #ffffff !important;
+  border-color: #f8f8f8 !important;
+  margin: 5px;
+}
+
+.home:hover{
+  font-family:Arial, Helvetica, sans-serif;
+  color: #7742f5 !important;
+  border-color: #7742f5 !important;
+  background-color:#f8f8f8 ;
+  margin: 5px;
+}
+.home:focus{
+  font-family:Arial, Helvetica, sans-serif;
+  color: #7742f5 !important;
+  border-color: #7742f5 !important;
+  background-color:#f8f8f8 ;
+  margin: 5px;
+}
+
+.sitename{
+  font-size: 25px;
+}
